@@ -7,6 +7,6 @@ func main() {
 		if i%2 == 0 {
 			continue
 		}
-		fmt.Println("Perulangan ke", i)
+		fmt.Println("perulangan ke", i)
 	}
 }

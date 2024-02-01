@@ -7,6 +7,6 @@ func main() {
 		if i == 5 {
 			break
 		}
-		fmt.Println("Perulangan ke", i)
+		fmt.Println("Perulangan ke-", i)
 	}
 }

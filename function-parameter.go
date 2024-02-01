@@ -3,11 +3,9 @@ package main
 import "fmt"
 
 func sayHelloTo(firstName string, lastName string) {
-	fmt.Println("Hello", firstName, lastName)
+	fmt.Println("hello", firstName, lastName)
 }
 
 func main() {
-	firstName := "Muhammad"
-	sayHelloTo(firstName, "Fadillah")
-	sayHelloTo("Muhammad", "Alif")
+	sayHelloTo("Muhammad", "Fadillah")
 }
